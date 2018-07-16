@@ -1,0 +1,13 @@
+{
+  "presets": [
+    "react"
+  ],
+  "env": {
+    "development": {
+      "presets":["react-hmre"]
+    }
+  },
+  "plugins": [
+    "styled-jsx/babel"
+  ]
+}

@@ -1,4 +1,9 @@
 import "../css/popup.css";
-import hello from "./popup/example";
+import SoonIt from "./components/soon-it.jsx";
+import React from "react";
+import { render } from "react-dom";
 
-hello();
+render(
+  <SoonIt/>,
+  window.document.getElementById("app-container")
+);

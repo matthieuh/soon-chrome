@@ -3,9 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <title></title>
+  <style>
+    @font-face {
+      font-family: 'Apercu';
+      src: url('./fonts/apercu/regular/apercu-regular.woff') format('woff'),
+          url('./fonts/apercu/regular/apercu-regular.ttf') format('truetype'),
+          url('./fonts/apercu/regular/apercu-regular.svg#Apercu') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    body, #app-container {
+      margin: 0px !important;
+      height: 100%;
+      display: flex;
+      font-family: 'Apercu', sans-serif;
+      color: #323541;
+    }
+  </style>
 </head>
 <body>
-  <h1>Hello!</h1>
-  <img src="img/icon-128.png">
+  <div id="app-container"></div>
 </body>
 </html>
